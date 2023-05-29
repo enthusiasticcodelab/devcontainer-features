@@ -1,0 +1,75 @@
+{
+  // "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainerFeature.schema.json",
+  "name": "Typescript Node Feature",
+  "id": "typescipt-node-feature",
+  "version": "0.1.0",
+  "description": "A feature to remind you of your favorite color",
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ],
+  "postCreateCommand": {
+    "installGlobalDependencies": "pnpm install"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "antfu.open-in-github-button",
+        "bierner.markdown-emoji",
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens",
+        "ibm.output-colorizer",
+        "mhutchie.git-graph",
+        "ms-azuretools.vscode-docker",
+        "mutantdino.resourcemonitor",
+        "sonarsource.sonarlint-vscode",
+        "streetsidesoftware.code-spell-checker",
+        "usernamehw.errorlens",
+        "yoavbls.pretty-ts-errors",
+        "yzhang.markdown-all-in-one"
+      ],
+      "settings": {
+        "editor.detectIndentation": false,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "files.encoding": "utf8",
+        "files.eol": "\n",
+        "files.insertFinalNewline": true,
+        "files.trimTrailingWhitespace": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true,
+          "source.fixAll": false,
+          "source.organizeImports": false
+        },
+        "editor.formatOnSave": false,
+        "editor.formatOnSaveMode": "modificationsIfAvailable",
+        "editor.formatOnType": false,
+        "eslint.codeActionsOnSave.mode": "problems",
+        "eslint.validate": [
+          "html",
+          "javascript",
+          "json",
+          "json5",
+          "jsonc",
+          "markdown",
+          "typescript",
+          "vue",
+          "yaml"
+        ],
+        "dotfiles.repository": "enthusiasticcodelab/dotfiles",
+        "errorLens.excludeBySource": [
+          "cSpell",
+          "eslint"
+        ],
+        "errorLens.fontStyleItalic": true,
+        "errorLens.fontWeight": "100",
+        "editor.rulers": [
+          80,
+          120
+        ],
+        "editor.wordWrapColumn": 120,
+        "typescript.tsdk": "node_modules/typescript/lib",
+        "typescript.updateImportsOnFileMove.enabled": "always"
+      }
+    }
+  }
+}
