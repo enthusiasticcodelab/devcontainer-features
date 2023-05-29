@@ -1,21 +1,7 @@
 # Devcontainer features
 
-Use a customized and presetted container.
+Use a customized and presetted containers.
 
-## Example Usage
-
-```jsonc
-"features": {
-  "ghcr.io/enthusiasticcodelab/devcontainer-features/typescript-node:latest": {}
-}
-```
-
-## Options
-
-No option is allowed.
-
-## Changelog
-
-| Version | Notes                                                               |
-| ------- | ------------------------------------------------------------------- |
-| 0.1.0   | Initial version                                                     |
+| Feature                                                      | Description                                                       |
+| ------------------------------------------------------------ | ----------------------------------------------------------------- |
+| [typescript-node](../src/typescript-node/README.md) | Preset of Node.js development container with preinstalled extensions and settings |

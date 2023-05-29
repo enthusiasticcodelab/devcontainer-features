@@ -1,7 +1,7 @@
 
 # Typescript Node Feature (typescript-node)
 
-A feature to remind you of your favorite color
+Preset of Node.js development container with preinstalled extensions and settings.
 
 ## Example Usage
 
