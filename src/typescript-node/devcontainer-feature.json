@@ -1,6 +1,6 @@
 {
   "name": "Typescript Node Feature",
-  "id": "typescipt-node",
+  "id": "typescript-node",
   "version": "0.1.0",
   "description": "A feature to remind you of your favorite color",
   "installsAfter": [
