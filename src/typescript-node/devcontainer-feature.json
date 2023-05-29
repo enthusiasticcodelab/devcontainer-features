@@ -1,7 +1,7 @@
 {
   "name": "Typescript Node Feature",
   "id": "typescript-node",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Preset of Node.js development container with preinstalled extensions and settings",
   "installsAfter": [
     "ghcr.io/devcontainers/features/common-utils"
