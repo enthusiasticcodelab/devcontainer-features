@@ -1,5 +1,4 @@
 {
-  // "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainerFeature.schema.json",
   "name": "Typescript Node Feature",
   "id": "typescipt-node-feature",
   "version": "0.1.0",
