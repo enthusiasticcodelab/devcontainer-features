@@ -1,7 +1,7 @@
 {
   "name": "Typescript Node Feature",
   "id": "typescript-node",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A feature to remind you of your favorite color",
   "installsAfter": [
     "ghcr.io/devcontainers/features/common-utils"
