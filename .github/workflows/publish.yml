@@ -2,8 +2,8 @@ name: Release dev container features
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - 'v*'
 
 jobs:
   deploy:
