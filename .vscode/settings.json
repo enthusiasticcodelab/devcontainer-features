@@ -6,5 +6,8 @@
       ],
       "url": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainerFeature.schema.json"
     }
-  ]
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.shellcheck": true
+  }
 }
