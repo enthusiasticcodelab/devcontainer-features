@@ -7,7 +7,7 @@
     "ghcr.io/devcontainers/features/common-utils"
   ],
   "postCreateCommand": {
-    "installGlobalDependencies": "pnpm install"
+    "installDependencies": "[ -f package.json ] && pnpm install"
   },
   "customizations": {
     "vscode": {
@@ -62,8 +62,14 @@
         "errorLens.fontStyleItalic": true,
         "errorLens.fontWeight": "100",
         "editor.rulers": [
-          80,
-          120
+          {
+            "color": "#4f8f3140",
+            "column": 79
+          },
+          {
+            "color": "#a5551f40",
+            "column": 119
+          }
         ],
         "editor.wordWrapColumn": 120,
         "typescript.tsdk": "node_modules/typescript/lib",
